@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" role="img" aria-label="Torneo de clan Free Fire">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#331448" />
+      <stop offset="0.35" stop-color="#aa4c74" />
+      <stop offset="0.7" stop-color="#f0a646" />
+      <stop offset="1" stop-color="#f7cf6a" />
+    </linearGradient>
+    <radialGradient id="light" cx="51%" cy="34%" r="36%">
+      <stop offset="0" stop-color="#fffad1" />
+      <stop offset="0.22" stop-color="#ffd261" stop-opacity="0.92" />
+      <stop offset="0.7" stop-color="#ff7b38" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#ff7b38" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#7a410e" />
+      <stop offset="0.28" stop-color="#f7d26b" />
+      <stop offset="0.55" stop-color="#fff1a5" />
+      <stop offset="1" stop-color="#b36518" />
+    </linearGradient>
+    <linearGradient id="ground" x1="0" x2="1">
+      <stop offset="0" stop-color="#25103a" />
+      <stop offset="0.55" stop-color="#3b183b" />
+      <stop offset="1" stop-color="#5a261b" />
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12" result="b" />
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="660" fill="url(#bg)" />
+  <rect width="1200" height="660" fill="url(#light)" />
+  <path d="M0 485c145-78 325-80 475-34 158 48 315 30 455-26 108-43 202-34 270 5v230H0Z" fill="url(#ground)" opacity="0.9" />
+  <path d="M0 0h1200v660H0Z" fill="#160914" opacity="0.16" />
+  <text x="20" y="46" fill="#fff" font-family="Arial Black, Impact, sans-serif" font-size="34" font-weight="900" opacity="0.94">FREE FIRE</text>
+
+  <g filter="url(#glow)">
+    <path d="M600 44 635 205 600 285 565 205Z" fill="#fff6b3" opacity="0.85" />
+    <path d="M515 178h170v90c0 52-35 89-85 101-50-12-85-49-85-101Z" fill="url(#gold)" stroke="#fff0a0" stroke-width="8" />
+    <path d="M542 204h116v58c0 35-22 60-58 72-36-12-58-37-58-72Z" fill="#7b4517" opacity="0.55" />
+    <path d="M510 220c-72 7-92 66-48 107" fill="none" stroke="#f1c765" stroke-width="18" stroke-linecap="round" />
+    <path d="M690 220c72 7 92 66 48 107" fill="none" stroke="#f1c765" stroke-width="18" stroke-linecap="round" />
+    <rect x="520" y="372" width="160" height="34" rx="12" fill="#d19631" />
+    <rect x="470" y="405" width="260" height="42" rx="10" fill="#6c3917" stroke="#ffd36a" stroke-width="5" />
+  </g>
+
+  <g transform="translate(92 292) rotate(-12)">
+    <ellipse cx="108" cy="280" rx="135" ry="30" fill="#000" opacity="0.35" />
+    <circle cx="130" cy="45" r="34" fill="#2c1e23" />
+    <path d="M96 78h76l30 160H64Z" fill="#f0bd26" />
+    <path d="M91 100 10 150" stroke="#1b1b1b" stroke-width="17" stroke-linecap="round" />
+    <path d="M172 106 285 79" stroke="#1b1b1b" stroke-width="16" stroke-linecap="round" />
+    <path d="M260 66h150" stroke="#202020" stroke-width="12" stroke-linecap="round" />
+    <path d="M260 52h38" stroke="#202020" stroke-width="20" stroke-linecap="round" />
+    <path d="M96 236 45 348" stroke="#191919" stroke-width="23" stroke-linecap="round" />
+    <path d="M166 236 204 348" stroke="#191919" stroke-width="23" stroke-linecap="round" />
+    <path d="M92 80c33 30 56 30 82 0" stroke="#121212" stroke-width="8" opacity="0.25" />
+  </g>
+
+  <g transform="translate(790 244) rotate(9)">
+    <ellipse cx="130" cy="345" rx="175" ry="36" fill="#000" opacity="0.36" />
+    <circle cx="142" cy="46" r="42" fill="#241d26" />
+    <path d="M98 92h94l48 190H54Z" fill="#3c2b31" />
+    <path d="M98 112-20 190" stroke="#241d24" stroke-width="23" stroke-linecap="round" />
+    <path d="M190 120 332 92" stroke="#241d24" stroke-width="22" stroke-linecap="round" />
+    <path d="M308 78h160" stroke="#1d1d1d" stroke-width="13" stroke-linecap="round" />
+    <path d="M322 64h42" stroke="#1d1d1d" stroke-width="22" stroke-linecap="round" />
+    <path d="M98 280 40 405" stroke="#181818" stroke-width="27" stroke-linecap="round" />
+    <path d="M196 280 265 405" stroke="#181818" stroke-width="27" stroke-linecap="round" />
+    <path d="M76 112c55-25 119-25 146 6" stroke="#171717" stroke-width="12" opacity="0.25" />
+    <circle cx="205" cy="-10" r="28" fill="#6b4b27" opacity="0.55" />
+    <path d="M207-28c-45 7-62 35-57 79" fill="none" stroke="#2f2328" stroke-width="17" stroke-linecap="round" />
+  </g>
+
+  <g opacity="0.85" stroke="#fff5b6" stroke-linecap="round">
+    <path d="M425 350c78-50 135-55 212-15" stroke-width="7" opacity="0.45" />
+    <path d="M655 332c86-42 172-37 264 26" stroke-width="7" opacity="0.45" />
+    <path d="M584 285 545 335M616 286l42 48" stroke-width="5" opacity="0.7" />
+    <circle cx="600" cy="286" r="13" fill="#fff8be" stroke="none" />
+  </g>
+</svg>
